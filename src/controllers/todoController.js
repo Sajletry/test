@@ -11,6 +11,7 @@ export class ToDoController {
 
 
     renderChilds(){
+        console.log(this.todos);
        this.todos.forEach(todo=>{
            this.view.getView(todo);
        })
