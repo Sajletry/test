@@ -1,5 +1,5 @@
 import {TodoModel} from "../models/todoModel";
-import {ToDoView} from "../views/todoView";
+import {ToDoView} from '../views/todoView';
 
 export class ToDoController {
     constructor() {
@@ -8,7 +8,6 @@ export class ToDoController {
         this.todos = this.model.getTodoList();
         this.renderChilds();
     }
-
 
     renderChilds(){
         console.log(this.todos);
